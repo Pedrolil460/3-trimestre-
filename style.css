@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1699f0;
     padding: 20px;
 }
 
@@ -51,4 +51,13 @@ canvas {
 i {
     font-size: 3em;
     color: #333;
+}
+.pronuncia {
+    position: absolute; /* Posiciona o título de forma absoluta */
+            bottom: 0;          /* Move o título para a parte inferior */
+            width: 100%;        /* Faz com que o título ocupe toda a largura */
+            text-align: center; /* Alinha o título no centro */
+            font-size: 10px;    /* Define o tamanho do título */
+            color: #ff6347; 
+
 }
